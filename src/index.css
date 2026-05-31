@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 36px;
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #aaa;
+}
+
+.text {
+  font-size: 18px;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.card h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00ffd5;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 255, 213, 0.3);
+}
